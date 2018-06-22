@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background: #eee;
+}
+#container{
+    background: #fff;
+    margin: 40px auto;
+    width: 700px;
+    height: 300px;
+    border: 1px solid #ddd;
+}
+.formItem label{
+    color: salmon;
+    font-weight: bold;
+}
+.formItem input{
+    width: 300px;
+    height: 30px;
+    line-height: 20px;
+    border: 1px solid salmon;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid salmon;
+    border-radius: 2px;
+    font-size: 20px;
+    color: salmon;
+}
+button:hover{
+    background: salmon;
+    color: blanchedalmond;
+}
+#addMovie{
+    margin-top: 20px;
+}

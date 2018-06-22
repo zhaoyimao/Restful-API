@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "mock": "json-server db.json --watch --port 3000"
+    },
+    "dependencies": {
+        "axios": "^0.18.0"
+    }
+}

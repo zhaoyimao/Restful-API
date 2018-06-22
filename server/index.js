@@ -97,7 +97,7 @@ app.get('/movies/:id',function(req,res){
         for(let i in movies){
              if(movies[i]["_id"]==req.params.id){
                  id=i;
-                 //console.log(movies[i]);
+    
              }
         }
         if(id){
@@ -130,7 +130,6 @@ app.delete('movies/:id',function(req,res){
 })
 
 
-var server=app.listen(3000,function(){
-   // host=server.address().address;    
+var server=app.listen(3000,function(){ 
     console.log("你的服务器在3000端口运行");
 })
